@@ -14,3 +14,11 @@ eval <<end
 end
 
 p factorial(100000)
+
+
+# Drews-MacBook-Pro-4:ruby-tricks zizimaza$ time ruby tail-call.rb
+# 282422940796034787429...
+#
+# real	0m16.106s
+# user	0m11.647s
+# sys	0m3.635s

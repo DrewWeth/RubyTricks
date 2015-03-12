@@ -19,3 +19,9 @@ add = lambda{|a,b| a+b}
 p add.call(2,3)
 
 p a{ return 7}.call
+
+
+# Drews-MacBook-Pro-4:ruby-tricks zizimaza$ ruby lambda.rb 
+# 3
+# 5
+# 7

@@ -14,3 +14,6 @@ class Child < Parent
 end
 
 Child.new.show_args(:a,:b,:c)
+
+# Drews-MacBook-Pro-4:ruby-tricks zizimaza$ ruby inheritance.rb 
+# [:f, :c]

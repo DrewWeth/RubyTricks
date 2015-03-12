@@ -7,3 +7,15 @@ at_exit do
 end
 
 puts 1 / 0 # Throws an error and triggers at_exit
+
+
+
+
+# Drews-MacBook-Pro-4:ruby-tricks zizimaza$ ruby infinite.rb
+# restarting
+# restarting
+# restarting
+# restarting
+# restarting
+
+# It goes on forever....

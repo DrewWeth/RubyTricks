@@ -9,3 +9,7 @@ end
 
 
 p factorial(100000)
+
+
+# Drews-MacBook-Pro-4:ruby-tricks zizimaza$ ruby factorial.rb 
+# factorial.rb:6: stack level too deep (SystemStackError)
