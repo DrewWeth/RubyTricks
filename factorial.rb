@@ -1,4 +1,4 @@
-
+# This is a example to throw a 'stack overflow' error to show the power of the script "tail-call.rb"
 def factorial(n, result =1)
   if n == 1
     result

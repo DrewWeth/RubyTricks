@@ -1,3 +1,6 @@
+# This script turns tail-end cursion optimization ON and turns OFF the memory of each instruction allowing crazy recursive scripts to run without 'stack overflow errors' and crazy long processing times.
+
+
 RubyVM::InstructionSequence.compile_option = { tailcall_optimization: true, trace_instruction: false }
 
 eval <<end

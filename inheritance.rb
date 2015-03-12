@@ -1,3 +1,5 @@
+# Simple object inheritance with Ruby. You can pass all, none, or edited arguments to the parent class with super()
+
 class Parent
   def show_args(*args)
     p args
